@@ -82,7 +82,7 @@
 					.navbar-search_icon {
 						margin-right: 10px;
 					}
-					.narbar-search_content {
+					.navbar-search_content {
 						font-size: 12px;
 						color: #999;
 					}

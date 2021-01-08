@@ -2,6 +2,7 @@
 	<view class="content">
 		<!-- 自定义导航栏 -->
 		<navbar></navbar>
+		<tab></tab>
 		<view class="" v-for="i in 100">
 			{{i}}个元素
 		</view>

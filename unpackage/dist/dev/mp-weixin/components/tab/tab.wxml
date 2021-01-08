@@ -1,0 +1,1 @@
+<view class="tab"><scroll-view class="tab-scroll" scroll-x="{{true}}"><view class="tab-scroll_box"><block wx:for="{{10}}" wx:for-item="i" wx:for-index="__i0__"><view class="tab-scroll_item">{{''+i+'内容'}}</view></block></view></scroll-view></view>
