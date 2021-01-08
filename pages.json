@@ -25,15 +25,6 @@
             }
             
         }
-        ,{
-            "path" : "components/navbar/navbar",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
