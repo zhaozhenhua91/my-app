@@ -2,10 +2,7 @@
 	<view class="content">
 		<!-- 自定义导航栏 -->
 		<navbar></navbar>
-		<tab></tab>
-		<view class="" v-for="i in 100">
-			{{i}}个元素
-		</view>
+		<tab :list="list"></tab>
 	</view>
 </template>
 
@@ -15,14 +12,21 @@
 		data() {
 			return {
 				title: 'Hello',
-				src: ''
+				src: '',
+				list: []
 			}
 		},
 		onLoad() {
-
+            this.getLabel();
 		},
 		methods: {
-
+			getLabel() {
+				uniCloud.callFunction({
+					name: 'getLabel'
+				}).then((res)=>{
+					this.list = res.result.content.data;
+				}) 
+			}
 		}
 	}
 </script>
