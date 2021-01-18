@@ -25,6 +25,42 @@
             }
             
         }
+        ,{
+            "path" : "components/listScroll/listScroll",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/listCard/listCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pageDetail/pageDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -46,10 +82,14 @@
 				
 			},{
 				"pagePath":"pages/tabbar/about/about",
-				"text":"关于"
+				"text":"关于",
+				"iconPath":"static/about.png",
+				"selectedIconPath":"static/selectedAbout.png"
 			},{
 				"pagePath":"pages/tabbar/my/my",
-				"text":"我的"
+				"text":"我的",
+				"iconPath":"static/my.png",
+				"selectedIconPath":"static/selectedMy.png"
 			}
 		]
 	}

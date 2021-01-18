@@ -9,6 +9,6 @@ exports.main = async (event, context) => {
 	return {
 		code: '200',
 		msg: '操作成功',
-		content: data
+		content: data.data
 	}
 };
